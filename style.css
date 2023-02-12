@@ -17,10 +17,9 @@ body {
 
 
   .grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    
+    text-align: center;
+    padding: 10rem 2rem;
+    background: var(--main-blue);
   }
   .grid section {
     width: 600px;
